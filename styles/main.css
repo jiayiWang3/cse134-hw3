@@ -118,12 +118,12 @@ ul li {
   font-size: 0.7em;
 }
 
-.sticky {
+/* .sticky {
   position: fixed;
   z-index: 1;
   top: 0;
   width: 100%;
-}
+} */
 
 
 /*
