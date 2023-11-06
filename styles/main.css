@@ -110,6 +110,22 @@ ul {
 ul li {
   margin: 5px;
 }
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 0.7em;
+}
+
+.sticky {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+
+
 /*
 a:link { color: #3366BB; }
 a:visited { color: #663366 }
