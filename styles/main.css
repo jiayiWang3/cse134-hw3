@@ -109,9 +109,20 @@ ul li {
 
 .main-nav {
   display: flex;
-  list-style: none;
-  margin: 0;
-  font-size: 0.7em;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.main-nav a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.main-nav a:hover {
+  background-color: #555;
 }
 
 .container {
