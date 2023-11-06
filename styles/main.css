@@ -106,7 +106,15 @@ img:hover {
   animation: moveRight 2s linear infinite;
 }
 
+#Education_Background {
+  background-color: rgb(0, 255, 0);
+  background-color: color(display-p3 0 1 0);
+}
 
+#Self-Introduction {
+  background-color: #7f007f;
+  background-color: color-mix(in srgb, red 50%, blue 50%);
+}
 
 
 
