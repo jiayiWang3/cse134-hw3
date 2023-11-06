@@ -63,16 +63,19 @@ header {
 
 .main-nav {
   display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 0.7em;
   flex-direction: row;
   /* font-size: 0.7em; */
 }
 
-.sticky {
+/* .sticky {
   position: fixed;
   z-index: 1;
   top: 0;
   width: 100%;
-}
+} */
 
 /* header hr {
   width: 30%;
