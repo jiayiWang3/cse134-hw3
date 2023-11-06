@@ -39,10 +39,9 @@ header {
   color: white;
 }
 
-header hr {
+/* header hr {
   width: 30%;
-  color: var(--main-color)
-} 
+}  */
 
 /****** main content ******/
 /* img{
@@ -75,7 +74,8 @@ a:active { background-color: yellow; border: 4px solid red;} */
 
 
 /****** footer ******/
-/* footer {
+footer {
   font-size: small;
   text-align: center;
-} */ 
+  color: var(--main-color);
+} 
