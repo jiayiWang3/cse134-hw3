@@ -116,6 +116,10 @@ img:hover {
   background-color: color-mix(in srgb, red 50%, blue 50%);
 }
 
+li:has(> .a) {
+  background-color: yellow;
+}
+
 
 
 /****** footer ******/
