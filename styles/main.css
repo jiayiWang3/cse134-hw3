@@ -3,7 +3,7 @@
 html,
 body {
   background-color: lightblue;
-}
+} */
 @font-face {
   font-family: "Literata";
   font-style: normal;
@@ -21,7 +21,7 @@ body {
   font-style: italic;
   font-weight: 400;
   src: url("../fonts/Literata/static/Literata-Italic.ttf") format("truetype");
-} */
+} 
 
 :root {
   --main-color: blue;
@@ -34,7 +34,7 @@ header {
   background-image: url("../images/bg_homepage.jpg");
   background-color: #fcfcdc;
   text-align: center;
-  padding: 20px 0;
+  padding: 20em 0;
   font-family: "Literata", serif;
   color: white;
 }
@@ -50,7 +50,7 @@ header {
 
 main {
   text-align: center;
-}
+}*/
 
 ul {
   background-color: white;
@@ -65,7 +65,7 @@ ul {
 ul li {
   margin: 5px;
 }
-
+/*
 a:link { color: #3366BB; }
 a:visited { color: #663366 }
 a:visited:hover { color: #0b0080; }
@@ -77,5 +77,5 @@ a:active { background-color: yellow; border: 4px solid red;} */
 footer {
   font-size: small;
   text-align: center;
-  color: var(--main-color);
+  color: var(--main-color, balck);
 } 
