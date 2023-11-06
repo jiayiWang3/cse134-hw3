@@ -24,7 +24,7 @@ body {
 }
 
 /****** header ******/
-/* header {
+header {
   background-image: url("../images/bg_homepage.jpg");
   background-color: #fcfcdc;
   text-align: center;
@@ -32,7 +32,7 @@ body {
   font-family: "Literata", serif;
   color: white;
 }
-
+/*
 header hr {
   width: 30%;
 } */
