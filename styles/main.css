@@ -116,8 +116,15 @@ img:hover {
   background-color: color-mix(in srgb, red 50%, blue 50%);
 }
 
+
+/* New Selectors */
 li:has(> .a) {
   background-color: yellow;
+}
+
+.photo {
+  width: 50%;
+  height: auto;
 }
 
 
