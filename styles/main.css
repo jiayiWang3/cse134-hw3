@@ -72,6 +72,15 @@ a:visited:hover { color: #0b0080; }
 a:hover { color: gray; }
 a:active { background-color: yellow; border: 4px solid red;} */
 
+#project1 {
+  color: red;
+}
+
+
+
+
+
+
 
 /****** footer ******/
 footer {
