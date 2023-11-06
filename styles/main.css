@@ -57,6 +57,9 @@ header {
   color: white;
 }
 
+.intro_page {
+  text-align: center;
+}
 
 .main-nav {
   display: flex;
