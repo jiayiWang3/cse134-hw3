@@ -186,13 +186,21 @@ li:has(> .a) {
 
 .section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "title"
+  "text";
   gap: 10px;
   padding: 20px;
 }
 
+.section h3 {
+  grid-area: title;
+  margin: 0;
+}
+
 .section p {
+  grid-area: text;
   margin: 0;
 }
 
