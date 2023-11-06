@@ -138,6 +138,19 @@ ul li {
   grid-gap: 10px;
 }
 
+#intro_li ul{
+  background-color: white;
+  border: 8px double black;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  width: 200px;
+}
+
+#intro_li li {
+  margin: 5px;
+}
 
 
 /* .sticky {
