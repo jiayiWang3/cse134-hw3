@@ -27,7 +27,25 @@ body {
   --main-color: blue;
 }
 
+/* Responsive Design */
+@media (max-width: 600px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+  }
+}
 
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    padding: 30px;
+  }
+}
 
 /****** header ******/
 header {
@@ -37,6 +55,21 @@ header {
   padding: 20px 0;
   font-family: "Literata", serif;
   color: white;
+}
+
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 0.7em;
+}
+
+.sticky {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
 }
 
 /* header hr {
@@ -51,6 +84,18 @@ header {
 main {
   text-align: center;
 }*/
+
+
+
+
+
+
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
 
 ul {
   background-color: white;
