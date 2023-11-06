@@ -28,7 +28,7 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .main-nav {
     font-size: 0.5em;
     padding: 0;
@@ -45,7 +45,7 @@ body {
   .container {
     padding: 30px;
   }
-}
+} */
 
 /****** header ******/
 header {
