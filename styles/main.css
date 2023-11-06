@@ -184,6 +184,12 @@ li:has(> .a) {
   gap: 20px;
 }
 
+.interests {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
 .section {
   display: flex;
   flex-direction: column;
@@ -202,6 +208,10 @@ li:has(> .a) {
   margin: 0;
 }
 
+.section img {
+  width: 80%;
+  height: auto;
+}
 
 
 
