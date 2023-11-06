@@ -79,12 +79,12 @@ header {
   background-color: #555;
 }
 
-.container {
+/* .container {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .grid-wrapper {
   display: grid;
@@ -176,6 +176,30 @@ li:has(> .a) {
   width: 50%;
   height: auto;
 }
+
+/* bio */
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.section p {
+  margin: 0;
+}
+
+
+
+
+
 
 
 /****** footer ******/
