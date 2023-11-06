@@ -21,7 +21,13 @@ body {
   font-style: italic;
   font-weight: 400;
   src: url("../fonts/Literata/static/Literata-Italic.ttf") format("truetype");
+} */
+
+:root {
+  --main-color: blue;
 }
+
+
 
 /****** header ******/
 header {
@@ -32,10 +38,11 @@ header {
   font-family: "Literata", serif;
   color: white;
 }
-/*
+
 header hr {
   width: 30%;
-} */
+  color: var(--main-color)
+} 
 
 /****** main content ******/
 /* img{
