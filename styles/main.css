@@ -213,17 +213,17 @@ li:has(> .a) {
 }
 
 /* bio */
-.bio {
+/* .bio {
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: 20px;
-}
+} */
 
-.interests {
+/* .interests {
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: 20px;
-}
+} */
 
 .section {
   display: flex;
