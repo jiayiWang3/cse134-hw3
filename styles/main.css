@@ -128,9 +128,9 @@ header {
   gap: 10px;
 }
 
-.interests .section {
+.interests .top {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   /* flex-direction: column;
   align-items: center;
   text-align: center;
@@ -138,10 +138,13 @@ header {
   padding: 10px; */
 }
 
-.interests .section img {
-  width: 100%;
+.interests .top .food_image {
+  display: flex;
 }
 
+.interests .top .food_image .img {
+  width: 50%;
+}
 
 
 
