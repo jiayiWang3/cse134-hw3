@@ -276,6 +276,13 @@ footer {
     min-height: 48px;
     font-size: 16px;
   }
+
+  .video {
+    object-fit: cover;
+  }
+  .p {
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 900px) {
