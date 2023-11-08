@@ -233,6 +233,10 @@ li:has(> .a) {
   background-color: yellow;
 }
 
+.interest-section:has(h3) {
+  color: #add8e6;
+}
+
 .photo {
   width: 50%;
   height: auto;
