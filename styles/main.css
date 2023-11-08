@@ -59,6 +59,7 @@ header {
 
 .intro_page {
   text-align: center;
+  height: 75dvh;
 }
 
 #intro_li ul{
@@ -129,7 +130,7 @@ header {
 
 .interest-section img {
   margin: 10px;
-  width: 50dvw;
+  width: 150px;
   height: auto;
 }
 
