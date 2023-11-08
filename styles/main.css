@@ -160,6 +160,22 @@ header {
   width: 80%;
 }
 
+.project-section .image-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #add8e6;
+}
+
+.project-section .image-container table, th, td {
+  border: 1px solid #00008b;
+}
+.project-section .image-container th, td {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+
 
 
 
