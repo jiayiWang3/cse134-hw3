@@ -198,7 +198,7 @@ button:hover {
 
 /* CSS Transforms */
 #food {
-  transform: rotate(90deg)
+  transform: rotate(180deg)
 }
 
 /* #food {
