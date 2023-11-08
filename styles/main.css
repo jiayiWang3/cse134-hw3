@@ -147,7 +147,7 @@ header {
   display: grid;
   grid-template-rows: auto;
   grid-row-gap: 10px;
-  justify-items: center;
+  /* justify-items: center; */
 }
 
 .project-section .image-container {
