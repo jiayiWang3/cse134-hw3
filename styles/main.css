@@ -201,10 +201,10 @@ button:hover {
   transform: rotate(90)
 }
 
-#food {
+/* #food {
   max-width: 50%;
   height: auto;
-}
+} */
 
 /* CSS Animations */
 @keyframes moveRight {
@@ -252,6 +252,6 @@ li:has(> .a) {
 footer {
   font-size: small;
   text-align: center;
-  color: var(--main-color, balck);
+  color: var(--main-color, black);
 } 
 
