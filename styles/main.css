@@ -140,8 +140,26 @@ header {
   margin-top: 10px;
 }
 
+/* projects-page  */ 
+.project-section {
+  text-align: center;
+  margin: 20px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 10px;
+  justify-items: center;
+}
 
+.project-section .image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+} 
 
+.project-section .image-container img {
+  width: 150px;
+  height: auto;
+}
 
 
 
