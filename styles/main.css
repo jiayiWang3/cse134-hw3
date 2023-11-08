@@ -134,10 +134,10 @@ header {
 /* projects-page  */ 
 .project-section {
   text-align: left;
-  margin: 20px;
+  /* margin: 20px; */
   display: grid;
   grid-template-rows: auto;
-  grid-row-gap: 10px;
+  /* grid-row-gap: 10px; */
   /* justify-items: center; */
 }
 
@@ -259,8 +259,6 @@ footer {
 }
 
 @media (max-width: 900px) {
-  .container {
-    padding: 0.75rem;
-  }
+
 }
 
