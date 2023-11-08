@@ -133,6 +133,9 @@ header {
   height: auto;
 }
 
+.interest-section audio {
+  margin-top: 10px;
+}
 .interest-section p {
   margin-top: 10px;
 }
