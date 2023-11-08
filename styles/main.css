@@ -251,6 +251,9 @@ footer {
   .main-nav {
     padding: none;
   }
+  .intro_page {
+    height: auto;
+  }
   button {
     min-width: 48px;
     min-height: 48px;
@@ -259,6 +262,13 @@ footer {
 }
 
 @media (max-width: 900px) {
-
+  .intro_page {
+    height: auto;
+  }
+  button {
+    min-width: 48px;
+    min-height: 48px;
+    font-size: 16px;
+  }
 }
 
