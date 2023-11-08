@@ -156,10 +156,9 @@ header {
   grid-gap: 10px;
 } 
 
-/* .project-section .image-container p {
-  width: 150px;
-  height: auto;
-} */
+.project-section .image-container img{
+  width: 50%;
+}
 
 
 
