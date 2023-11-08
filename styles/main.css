@@ -253,20 +253,22 @@ footer {
   }
   .intro_page {
     text-align: center;
-    height: auto;
+    /* height: auto; */
   }
   
   #intro_li ul{
-    background-color: white;
-    border: 8px double black;
-    border-radius: 4px;
-    margin: 0 auto;
-    padding: 5px;
+    /* background-color: white; */
+    /* border: 8px double black; */
+    /* border-radius: 4px; */
+    /* margin: 0 auto; */
+    /* padding: 5px; */
     text-align: left;
-    width: 200px;
+    text-size-adjust: auto;
+    /* width: 200px; */
   }
   
   #intro_li li {
+    text-size-adjust: auto;
     margin: 1px;
   }
   button {
