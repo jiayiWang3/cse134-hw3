@@ -252,7 +252,7 @@ footer {
     padding: none;
   }
   .intro_page {
-    height: auto;
+    height: 300px;
   }
   button {
     min-width: 48px;
