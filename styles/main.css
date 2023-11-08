@@ -181,9 +181,6 @@ header {
 button {
   background-color: blue;
   transition: background-color 0.5s ease;
-  min-width: 48px;
-  min-height: 48px;
-  font-size: 16px;
 }
 
 button:hover {
@@ -253,6 +250,11 @@ footer {
 @media (max-width: 600px) {
   .main-nav {
     padding: none;
+  }
+  button {
+    min-width: 48px;
+    min-height: 48px;
+    font-size: 16px;
   }
 }
 
